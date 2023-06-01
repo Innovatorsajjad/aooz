@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .my-btn {
+    @apply btn bg-gradient-to-br from-[#01ABE8] to-[#00EF8F] border-none font-bold;
+  }
+  .my-bg {
+    @apply bg-gradient-to-br from-[#01ABE8] to-[#00EF8F];
+  }
+}
