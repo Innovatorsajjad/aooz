@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hero from "../../assets/hero.png";
+import hero from "../../../public/hero.svg";
 
 const HeroSection = () => {
   return (
@@ -11,12 +11,13 @@ const HeroSection = () => {
               width={500}
               height={500}
               src={hero.src}
-              className="md:max-w-md rounded-lg mb-6 md:mb-0"
+              className="md:max-w-md rounded-lg mb-6 md:mb-0 px-4 md:px-0 py-5"
+              alt="Hero Section Image"
             />
-            <div className="max-w-lg">
-              <h1 className="text-5xl font-bold">We helps brands grow by unlcashing the potential of imernet</h1>
-              <p className="py-6">
-                if you di the right marketing on the bp line the bottom line marketing wil follow.
+            <div className="max-w-xlg">
+              <h1 className="capitalize">We helps brands grow by unlcashing the potential of imernet</h1>
+              <p className="py-6 max-w-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas amet voluptatibus, minima, doloremque sint quam ea aspernatur ad minus mollitia similique modi ratione consequatur delectus.
               </p>
               <button className="my-btn">Get Started</button>
             </div>

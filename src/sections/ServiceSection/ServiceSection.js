@@ -43,7 +43,7 @@ const ServiceSection = () => {
     <section id="services" className="py-16">
       <div className="container">
         <div className="text-center space-y-1 mb-6 my-7">
-          <h1 className="text-2xl font-bold my-7">Service Triooz TMM Privided</h1>
+          <h2 className="">Service Triooz TMM Privided</h2>
           <p>
             We are not selling service, we are sell result. Top line Raw
             Marketing, Banding, Story telling like "Nike" & DM Result
@@ -57,7 +57,7 @@ const ServiceSection = () => {
               />
             ))}
           </div>
-          <div className="basis-1/4 my-bg p-4 rounded-sm font-light text-white ">
+          <div className="basis-1/4 my-bg p-4  font-light text-white rounded">
             <blockquote className="">
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
               possimus impedit debitis cumque cum ad at, commodi tenetur ratione

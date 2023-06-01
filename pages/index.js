@@ -1,3 +1,4 @@
+import WhatsAppIcon from "@/src/components/WhatsAppIcon";
 import MainLayout from "@/src/layouts/MainLayout";
 import AboutUs from "@/src/sections/AboutUsSection/AboutUs";
 import ContactUs from "@/src/sections/ContactUsSection/ContactUs";
@@ -10,9 +11,11 @@ import Head from "next/head";
 const index = () => {
   return (
     <>
+    
       <Head>
         <title>Aooz | Home Page</title>
       </Head>
+      <WhatsAppIcon />
       <MainLayout>
         <HeroSection />
         <ServiceSection />

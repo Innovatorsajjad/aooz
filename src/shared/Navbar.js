@@ -10,27 +10,27 @@ const Navbar = () => {
         <Link href="/">Home</Link>
       </li>
       <li>
-        <Link href="/#services">Services</Link>
+        <Link href="#services">Services</Link>
       </li>
       <li>
-        <Link href="/#testimonials">Testimonials</Link>
+        <Link href="#testimonials">Testimonials</Link>
       </li>
       <li>
-        <Link href="/#faq">FAQ</Link>
+        <Link href="#faq">FAQ</Link>
       </li>
       <li>
-        <Link href="/#blog">Blog</Link>
+        <Link href="#blog">Blog</Link>
       </li>
       <li>
-        <Link href="/#about">About Us</Link>
+        <Link href="#about">About Us</Link>
       </li>
       <li>
-        <Link href="/#contact">Contact Us</Link>
+        <Link href="#contact">Contact Us</Link>
       </li>
     </>
   );
   return (
-    <header className="navbar bg-base-100 shadow-xl sticky top-0 z-10">
+    <header className="navbar bg-base-100 shadow-md sticky top-0 z-20">
       <nav className="navbar-start">
         <Link href="/" className="btn btn-ghost normal-case text-xl">
           <Image
@@ -48,7 +48,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end md:hidden">
         <div className="dropdown dropdown-end">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"

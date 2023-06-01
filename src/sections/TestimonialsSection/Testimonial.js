@@ -30,7 +30,7 @@ const Testimonial = () => {
   return (
     <div id="testimonials" className="mx-auto container mt-16">
       <div className="reviewTittle flex justify-center mb-32">
-        <h2 className=" text-xl md:text-3xl font-bold">
+        <h2 className="capitalize">
           What do our users say?
         </h2>
       </div>
