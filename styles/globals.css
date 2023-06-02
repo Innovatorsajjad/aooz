@@ -3,24 +3,29 @@
 @tailwind utilities;
 
 @layer base {
-  h1,h2,h3,h4,h5,h6{
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-bold;
   }
 
-  h1{
+  h1 {
     @apply text-5xl;
   }
 
-  h2{
+  h2 {
     @apply text-4xl;
   }
 }
 
 @layer components {
   .my-btn {
-    @apply btn bg-gradient-to-br from-[#01ABE8] to-[#00EF8F] border-none font-bold;
+    @apply btn bg-[#0e53a8] border-none font-bold;
   }
   .my-bg {
-    @apply bg-gradient-to-br from-[#01ABE8] to-[#00EF8F];
+    @apply bg-[#0e53a8];
   }
 }
